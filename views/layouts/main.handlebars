@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>mcTech</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
@@ -12,11 +13,12 @@
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">mcTech</a>
+        <a href="/">mc</a><a href="/" class="tcolor">T</a><a href="/">ech</a>
       </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a>
+        <a href="/dashboard" class="dashboard">Dashboard</a>
+        <i class="fa fa-youtube-play" id="youtube" style="font-size:20px;color:red"></i><a class="youtube" href="https://www.youtube.com/user/djpdim/featured">YouTube</a>
         <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
         <a href="/login">Login</a>

@@ -124,7 +124,7 @@ main {
 
 .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: red;
 }
 
 .delete-post-btn {
@@ -213,4 +213,22 @@ footer {
 #youtube {
     position: relative;
     left: -800px;
+}
+
+.btn {
+    background-color: lemonchiffon;
+    border: none;
+    color: black;
+}
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: red;
+}
+.btn:hover {
+    background-color: red;
 }

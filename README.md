@@ -1,20 +1,20 @@
-# mcTech-tech-blog
+# mcTech-Tech-Blog
 
 ## Description
 
--   This is a backend application for an ecommerce site that uses Sequelize to interact with a MySQL database. Using insomnia, a user can interact with the backend to view the products, categories, and tags aswell as use CRUD methods to alter the databse.
+-   This project is a CMS-style blog where developers can publish their blog posts and comment on other developers post. This application follows the MVC paradigm in it's structure and uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 ## Link to the app
 
 Link to the deployed page at Heroku: [mcTech-Tech-Blog](https://mctech-tech-blog.herokuapp.com/)
 
-Link to the github app: [mctech-tech-blog](https://github.com/djpdim/mctech-tech-blog)
+Link to the github app: [mcTech-Tech-Blog](https://github.com/djpdim/mctech-tech-blog)
 
-Link to the github page: [mctech-tech-blog](https://djpdim.github.io/mctech-tech-blog/)
+Link to the github page: [mcTech-Tech-Blog](https://djpdim.github.io/mctech-tech-blog/)
 
-Demo: [mctech-tech-blog](https://drive.google.com/file/d/18SftcHfi9jwAxJrXgrEJH99KShqPeXXS/view)
+Demo: [mcTech-Tech-Blog](https://drive.google.com/file/d/1tx24AZ8WGZhDRvfPEpqLJuHXLgaRwdDR/view)
 
-![demogif](./assets/video/demo.gif)
+![demogif](./public/images/mcTech.gif)
 
 ## Tample of Content
 
@@ -27,19 +27,19 @@ Demo: [mctech-tech-blog](https://drive.google.com/file/d/18SftcHfi9jwAxJrXgrEJH9
 
 ## Installation
 
--   The user should clone the repository from GitHub and NPM install (dotenv, express, mysql2, sequelize).
+-   The user should clone the repository from GitHub, it requires Node.js, Express.js, Sequelize, mysql2, connection-session/express-session, and Jest.
 
-*   You can run the app by node index or npm start.
+    -   If cloning the repo, run npm i to run all modules.
+    -   To connect to the database run mysql -u root -p and enter password, then source the schema.sql.
+    -   To connect to the server run npm start.
 
 ## Usage
 
-To use this application a user needs to start the server on local host then use an application like Insomina to make requests to the database.
+This application will allow users to sign up if they are not a member, then once they are logged in they are able to view their dashboard of posts to view, add, edit, and delete blog posts and comment on other developers post.
 
 ## Credits
 
 -   Tutors and TA's
-
--   Starter code given from the [BootCamp](https://github.com/coding-boot-camp/fantastic-umbrella).
 
 ## License
 

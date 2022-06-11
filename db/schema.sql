@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS newsfeed_db;
+DROP DATABASE IF EXISTS mctech_tech_blog;
 
-CREATE DATABASE newsfeed_db;
+CREATE DATABASE mctech_tech_blog;

@@ -14,6 +14,8 @@ Link to the github page: [mcTech-Tech-Blog](https://djpdim.github.io/mctech-tech
 
 Demo: [mcTech-Tech-Blog](https://drive.google.com/file/d/1tx24AZ8WGZhDRvfPEpqLJuHXLgaRwdDR/view)
 
+<img src="./public/images/mctechhomepage.png" width="800" height="400" />
+
 ![demogif](./public/images/mcTech.gif)
 
 ## Tample of Content

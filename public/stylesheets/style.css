@@ -217,3 +217,15 @@ footer {
 .btn:hover {
     background-color: red;
 }
+
+@media only screen and (max-width: 1000px) {
+    html {
+        background-image: url(../images/mctechsmaller.png);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        background-image: url(../images/mctechsmaller.png);
+    }
+}

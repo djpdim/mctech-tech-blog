@@ -200,21 +200,6 @@ footer {
     font-size: 110%;
 }
 
-.dashboard {
-    position: relative;
-    left: -835px;
-}
-
-.youtube {
-    position: relative;
-    left: -795px;
-}
-
-#youtube {
-    position: relative;
-    left: -800px;
-}
-
 .btn {
     background-color: lemonchiffon;
     border: none;

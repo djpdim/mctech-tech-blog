@@ -29,11 +29,7 @@ Demo: [mcTech-Tech-Blog](https://drive.google.com/file/d/1tx24AZ8WGZhDRvfPEpqLJu
 
 ## Installation
 
--   The user should clone the repository from GitHub, it requires Node.js, Express.js, Sequelize, mysql2, connection-session/express-session, and Jest.
-
-    -   If cloning the repo, run npm i to run all modules.
-    -   To connect to the database run mysql -u root -p and enter password, then source the schema.sql.
-    -   To connect to the server run npm start.
+-   Navigate to the deployed page and sign up for an account and start using the site.
 
 ## Usage
 

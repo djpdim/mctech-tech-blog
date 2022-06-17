@@ -21,6 +21,7 @@ html {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
+    transition: background-image 1s;
 }
 a {
     text-decoration: none;
